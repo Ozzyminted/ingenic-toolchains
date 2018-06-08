@@ -1,0 +1,26 @@
+2017-11-09 Qian Liu <qian.liu@ingenic.com>
+
+	* gcc (1): debug Issue #100, disable split of V4F32/V2F64
+	variable setting to 0;
+	(2): set prefetch schedule barrier;
+	(3): merge MXU2 bugs fix from gcc-5.2.0;
+	(4): default clean fused_madd option, disable all FMA
+	instruction generate;
+	(5): fix mxu load instructions macro bug in jzmedia.h.
+
+	* glibc : update strcmp and memcpy function from glibc-2.22.
+
+2017-11-09  Update info.
+
+	release Ingenic linux toolchains linux_r2.4.0-gcc472
+
+	* Release linux toolchains gcc4.7.2 + binutils2.24.51 + glibc2.16.
+	* Support mips MXU2 instructions.
+
+
+Local Variables:
+mode: change-log
+left-margin: 8
+fill-column: 76
+version-control: never
+End:
